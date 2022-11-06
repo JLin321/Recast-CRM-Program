@@ -24,13 +24,13 @@
             </header>
             <div style= "font-size:18px; float:left; margin-left: 25px; margin-top:-15px; position:static; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
                 <a href="Search.aspx" style= "color:white; margin-right: 20px;" >Search</a>
-                <a href="DispenseRequestOrder.aspx" style= "color:white; margin-right: 20px;">Add Partner/Organization</a>
-                <a href="DispenseRequestOrder.aspx" style= "color:white; margin-right: 20px;">Add Unaffilated Contact</a>
-                <a href="ViewStatus.aspx" style= "color:white; margin-right: 20px;">Add Event/Meeting</a>
+                <a href="AddPartner/Organization.aspx" style= "color:white; margin-right: 20px;">Add Partner/Organization</a>
+                <a href="AddUnaffilated Contact.aspx" style= "color:white; margin-right: 20px;">Add Unaffilated Contact</a>
+                <a href="AddEvent/Meeting.aspx" style= "color:white; margin-right: 20px;">Add Event/Meeting</a>
                 <a href="PlaceOrder.aspx" style= "color:white; margin-right: 20px;">Import</a>
-                <a href="DispenseRequestOrder.aspx" style= "color:white; margin-right: 20px;">Users</a>
-                <a href="ViewStatus.aspx" style= "color:white; margin-right: 350px;">Validation Tables</a>
-                 <a href="Search.aspx" style= "color:white; font-size:30px;">Logout</a>
+                <a href="Import.aspx" style= "color:white; margin-right: 20px;">Users</a>
+                <a href="ValidationTables.aspx" style= "color:white; margin-right: 350px;">Validation Tables</a>
+                 <a href="Logout.aspx" style= "color:white; font-size:30px;">Logout</a>
             </div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
