@@ -4,33 +4,28 @@
 
 <html>
 <head runat="server">
-    <title></title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Philadephia ReCAST Program</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
         <div style="background-color:#67a5ef; height: 120px">
-            <header>
-            <h1 style="color:white; float:left; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-left: 25px; padding-top: 25px">Philadelphia Recast System</h1>
+            <h1 style="color:white; float:left; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-left: 25px; padding-top: 15px; padding-bottom: 15px;">Philadelphia Recast System</h1>
             <span style="color:white; float:right; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-right: 30px; padding-top: 25px">Welcome User</span>  
-            </header>
-            <div style= "font-size:18px; float:left; margin-left: 25px; margin-top:-15px; position:static; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
-                <a href="Search.aspx" style= "color:white; margin-right: 20px;" >Search</a>
-                <a href="AddPartner/Organization.aspx" style= "color:white; margin-right: 20px;">Add Partner/Organization</a>
-                <a href="AddUnaffilated Contact.aspx" style= "color:white; margin-right: 20px;">Add Unaffilated Contact</a>
-                <a href="AddEvent/Meeting.aspx" style= "color:white; margin-right: 20px;">Add Event/Meeting</a>
-                <a href="PlaceOrder.aspx" style= "color:white; margin-right: 20px;">Import</a>
-                <a href="Import.aspx" style= "color:white; margin-right: 20px;">Users</a>
-                <a href="ValidationTables.aspx" style= "color:white; margin-right: 350px;">Validation Tables</a>
-                 <a href="Logout.aspx" style= "color:white; font-size:30px;">Logout</a>
+            <div style= "font-size:18px; float:left; margin-left: 25px; margin-top:-25px; position:static; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+                <a href="Search.aspx" style= "color:white; margin-right: 10px;">Search</a>
+                <a href="AddPartner_Organization.aspx" style= "color:white; margin-right: 10px;">Add Partner/Organization</a>
+                <a href="AddUnaffilatedContact.aspx" style= "color:white; margin-right: 10px;">Add Unaffilated Contact</a>
+                <a href="AddEvent_Meeting.aspx" style= "color:white; margin-right: 10px;">Add Event/Meeting</a>
+                <a href="PlaceOrder.aspx" style= "color:white; margin-right: 10px;">Import</a>
+                <a href="Import.aspx" style= "color:white; margin-right: 10px;">Users</a>
+                <a href="ValidationTables.aspx" style= "color:white;  margin-right: 100px;">Validation Tables</a>
+                <a href="Logout.aspx" style= "color:white; font-size:30px;">Logout</a>
             </div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
