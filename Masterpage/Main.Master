@@ -1,4 +1,4 @@
-﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Main.master.vb" Inherits="Masterpage.Main" %>
+﻿﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Main.master.vb" Inherits="Masterpage.Main" %>
 
 <!DOCTYPE html>
 
@@ -12,7 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <style>
         .nav-item {
-            font-size: 20px;
+            font-size: 18px;
             text-decoration: underline;
         }
 
@@ -51,7 +51,7 @@
                             <a class="nav-link active" aria-current="page" href="#">Search</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Add Partner/Organization</a>
+                            <a class="nav-link active" aria-current="page" href="AddPartner_Organization.aspx">Add Partner/Organization</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Add Unaffilated Contact</a>
@@ -64,6 +64,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Users</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Settings.aspx">Settings</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Validation Tables</a>
