@@ -90,12 +90,20 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AddEvent_Meeting.aspx" />
     <Content Include="AddPartner_Organization.aspx" />
     <Content Include="Search.aspx" />
     <Content Include="Settings.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddEvent_Meeting.aspx.designer.vb">
+      <DependentUpon>AddEvent_Meeting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddEvent_Meeting.aspx.vb">
+      <DependentUpon>AddEvent_Meeting.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="AddPartner_Organization.aspx.designer.vb">
       <DependentUpon>AddPartner_Organization.aspx</DependentUpon>
     </Compile>
