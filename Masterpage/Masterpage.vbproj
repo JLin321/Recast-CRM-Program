@@ -91,6 +91,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AddPartner_Organization.aspx" />
+    <Content Include="AddUnaffiliatedContact.aspx" />
     <Content Include="Search.aspx" />
     <Content Include="Settings.aspx" />
     <Content Include="Web.config" />
@@ -101,6 +102,13 @@
     </Compile>
     <Compile Include="AddPartner_Organization.aspx.vb">
       <DependentUpon>AddPartner_Organization.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AddUnaffiliatedContact.aspx.designer.vb">
+      <DependentUpon>AddUnaffiliatedContact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddUnaffiliatedContact.aspx.vb">
+      <DependentUpon>AddUnaffiliatedContact.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Main.Master.designer.vb">

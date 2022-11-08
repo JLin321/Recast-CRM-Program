@@ -54,7 +54,7 @@
                             <a class="nav-link active" aria-current="page" href="AddPartner_Organization.aspx">Add Partner/Organization</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Add Unaffilated Contact</a>
+                            <a class="nav-link active" aria-current="page" href="AddUnaffiliatedContact.aspx">Add Unaffilated Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Add Event/Meeting</a>
