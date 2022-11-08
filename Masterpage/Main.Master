@@ -61,7 +61,7 @@
                             <a class="nav-link active" aria-current="page" href="AddUnaffiliatedContact.aspx">Add Unaffilated Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Add Event/Meeting</a>
+                            <a class="nav-link active" aria-current="page" href="AddEvent_Meeting.aspx">Add Event/Meeting</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Import</a>
