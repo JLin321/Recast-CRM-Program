@@ -48,7 +48,7 @@
                 <div class="collapse navbar-collapse ms-auto" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Search</a>
+                            <a class="nav-link active" aria-current="page" href="Search.aspx">Search</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Add Partner/Organization</a>
@@ -63,7 +63,7 @@
                             <a class="nav-link active" aria-current="page" href="#">Import</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Users</a>
+                            <a class="nav-link active" aria-current="page" href="Users.aspx">Users</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Validation Tables</a>
