@@ -3,24 +3,24 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1 style="padding-top:20px; font-family:Arial" class="text-center font-weight-bold text-uppercase">Add New Event/Meeting</h1>
-    <div class="row">
+    <div class="row" style="padding-top:20px; font-family:Arial">
         <label for="inputEventMeetingTitle" class="col form-label">Event/Meeting Title</label>
         <label for="inputEventMeetingDate" class="col form-label">Event/Meeting Date</label>
         <label for="inputEventMeetingTime" class="col form-label">Event/Meeting Time</label>
     </div>
-    <div class="row">
+    <div class="row" style="font-family:Arial">
         <input type="text" class="col form-control" id="inputEventMeetingTitle" placeholder="Meeting/Event Title" required>
         <input type="date" value="2022-11-09" class="col form-control" id="inputEventMeetingDate" placeholder="" required>
         <input type="time" class="col form-control" id="inputEventMeetingTime" placeholder="" required>
     </div>
-    <div class="row">
+    <div class="row" style="padding:20px 10px 10px; font-family:Arial">
         <label for="inputEventMeetingAddress" class="col form-label">Address 1</label>
         <label for="inputEventMeetingAddress2" class="col form-label">Address 2</label>
         <label for="inputEventMeetingCity" class="col form-label">City</label>
         <label for="inputEventMeetingState" class="col form-label">State</label>
         <label for="inputEventMeetingZipCode" class="col form-label">Zip Code</label>
     </div>
-    <div class="row">
+    <div class="row" style="font-family:Arial">
         <input type="text" class="col form-control" id="inputEventMeetingAddress" placeholder="" required>
         <input type="text" class="col form-control" id="inputEventMeetingAddress2" placeholder="Floor, Ste., Unit, etc." required>
         <input type="text" class="col form-control" id="inputEventMeetingCity" placeholder="--- City ---" required>
@@ -79,16 +79,17 @@
         </select>
         <input type="text" class="col form-control" id="inputEventMeetingZipcode" placeholder="xxxxx" required>
     </div>
-    <div class="row">
+    <div class="row" style="padding:20px 10px 10px; font-family:Arial">
         <label for="inputEventMeetingDescription" class="col form-label">Event/Meeting Description</label>
     </div>
-    <div class="row">
-        <input type="text" style="width: 400px;" class="col form-control" id="inputEventMeetingDescription" placeholder="In this meeting..." required>
+    <div class="row" style="font-family:Arial">
+        <textarea type="text" style="width: 400px;" class="col form-control" id="inputEventMeetingDescription" rows="4" placeholder="In this meeting..." required></textarea>
     </div>
-    <div class="row">
-            <button type="button" class="btn btn-primary btn-lg">Add Contact Person +</button>
+    <div class="row" style="padding:40px; font-family:Arial; font-size: 16px 60px">
+        <button type="button" class="btn btn-primary btn-lg">Add Partner/Organization Contact Person +</button>
+        <button type="button" class="btn btn-primary btn-lg">Add Unaffiliated Contact Person +</button>
     </div>
-    <div class="row justify-content-center">
-            <button type="submit" class="btn btn-success">Add</button>
+    <div class="row justify-content-center" style="font-family:Arial; font-size: 16px 60px">
+        <button type="submit" class="btn btn-primary btn-lg">Add</button>
     </div>
 </asp:Content>
