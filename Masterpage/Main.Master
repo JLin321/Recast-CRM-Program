@@ -66,7 +66,7 @@
                             <a class="nav-link active" aria-current="page" href="#">Users</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="Settings.aspx">Settings</a>
+                            <a class="nav-link active" aria-current="page" href="Settings.aspx">Profile</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Validation Tables</a>
