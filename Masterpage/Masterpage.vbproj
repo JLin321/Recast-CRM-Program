@@ -90,13 +90,25 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AddEvent_Meeting.aspx" />
     <Content Include="AddPartner_Organization.aspx" />
     <Content Include="AddUnaffiliatedContact.aspx" />
+    <Content Include="Categoryvalidation.aspx" />
     <Content Include="Search.aspx" />
+    <Content Include="Users.aspx" />
     <Content Include="Settings.aspx" />
+    <Content Include="UserType.aspx" />
+    <Content Include="ValidationTables.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddEvent_Meeting.aspx.designer.vb">
+      <DependentUpon>AddEvent_Meeting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddEvent_Meeting.aspx.vb">
+      <DependentUpon>AddEvent_Meeting.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="AddPartner_Organization.aspx.designer.vb">
       <DependentUpon>AddPartner_Organization.aspx</DependentUpon>
     </Compile>
@@ -109,6 +121,13 @@
     </Compile>
     <Compile Include="AddUnaffiliatedContact.aspx.vb">
       <DependentUpon>AddUnaffiliatedContact.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Categoryvalidation.aspx.designer.vb">
+      <DependentUpon>Categoryvalidation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Categoryvalidation.aspx.vb">
+      <DependentUpon>Categoryvalidation.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Main.Master.designer.vb">
@@ -144,11 +163,32 @@
       <DependentUpon>Search.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Users.aspx.designer.vb">
+      <DependentUpon>Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users.aspx.vb">
+      <DependentUpon>Users.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Settings.aspx.designer.vb">
       <DependentUpon>Settings.aspx</DependentUpon>
     </Compile>
     <Compile Include="Settings.aspx.vb">
       <DependentUpon>Settings.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="UserType.aspx.designer.vb">
+      <DependentUpon>UserType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserType.aspx.vb">
+      <DependentUpon>UserType.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ValidationTables.aspx.designer.vb">
+      <DependentUpon>ValidationTables.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationTables.aspx.vb">
+      <DependentUpon>ValidationTables.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
