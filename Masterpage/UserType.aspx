@@ -1,14 +1,22 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Main.Master" CodeBehind="Users.aspx.vb" Inherits="Masterpage.Users" %>
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Main.Master" CodeBehind="UserType.aspx.vb" Inherits="Masterpage.UserType" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h1 style="padding-top:20px; font-family:Arial" class="text-center font-weight-bold text-uppercase">Users</h1>
+    <h1 style="padding-top: 20px; font-family: Arial" class="text-center font-weight-bold text-uppercase">User Validation Tables</h1>
     <nav class="navbar">
         <div class="container-fluid">
-            <div class="d-flex w-50" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search by keyword" aria-label="Search">
-                <button class="btn btn-outline-dark" type="submit">Search</button>
+            <div class="dropdown">
+                <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Validation Tables
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Category Validation</a></li>
+                    <li><a class="dropdown-item" href="#">Service Validation</a></li>
+                    <li><a class="dropdown-item" href="#">Neighborhood Validation</a></li>
+                    <li><a class="dropdown-item" href="#">UserType Validation</a></li>
+                </ul>
+                <%--                <button class="btn btn-outline-dark" type="submit">Go</button>--%>
             </div>
             <div class="d-flex ms-auto">
                 <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#addUsers">Add</button>
@@ -22,23 +30,15 @@
                             <div class="modal-body">
                                 <div>
                                     <div class="mb-3">
-                                        <label class="form-label required">UserName</label>
+                                        <label class="form-label required">UserType</label>
                                         <input type="text" class="form-control">
                                     </div>
                                     <div class="mb-3">
-                                        <label class="form-label required">User First Name</label>
+                                        <label class="form-label required">Description</label>
                                         <input type="text" class="form-control">
                                     </div>
                                     <div class="mb-3">
-                                        <label class="form-label required">User Last Name</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label class="form-label required">Current Date</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label class="form-label required">User Type</label>
+                                        <label class="form-label required">Status</label>
                                         <input type="text" class="form-control">
                                     </div>
                                 </div>
@@ -58,42 +58,24 @@
             <table class="table table-bordered table-secondary border-dark w-100">
                 <thead>
                     <tr>
-                        <th scope="col">Username</th>
-                        <th scope="col">First Name</th>
-                        <th scope="col">Last Name</th>
-                        <th scope="col">Date Joined</th>
                         <th scope="col">User Type</th>
+                        <th scope="col">Description</th>
                         <th scope="col">Status</th>
                         <th scope="col">Edit</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Cheryl.H</td>
-                        <td>Cheryl</td>
-                        <td>Hyde</td>
-                        <td>10/25/2021</td>
                         <td>Admin</td>
-                        <td>Active</td>
-                        <td><img src="https://icons.veryicon.com/png/o/miscellaneous/linear-small-icon/edit-246.png" alt="" height="25" width="25"></td>
-                    </tr>
-                    <tr>
-                        <td>Katiana.F</td>
-                        <td>Katiana</td>
-                        <td>Foizen</td>
-                        <td>10/25/2021</td>
-                        <td>Admin</td>
+                        <td>This user has full access</td>
                         <td>Active</td>
                         <td>
                             <img src="https://icons.veryicon.com/png/o/miscellaneous/linear-small-icon/edit-246.png" alt="" height="25" width="25"></td>
                     </tr>
                     <tr>
-                        <td>Luke.S</td>
-                        <td>Luke</td>
-                        <td>Smith</td>
-                        <td>10/25/2021</td>
                         <td>Support Staff</td>
-                        <td>Inactive</td>
+                        <td>This user has limited access</td>
+                        <td>Active</td>
                         <td>
                             <img src="https://icons.veryicon.com/png/o/miscellaneous/linear-small-icon/edit-246.png" alt="" height="25" width="25"></td>
                     </tr>
@@ -101,4 +83,5 @@
             </table>
         </div>
     </div>
+
 </asp:Content>
