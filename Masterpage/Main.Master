@@ -96,13 +96,6 @@
                                 </ul>
                             </div>
                         </li>
-
-                        <%--<li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Import</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="ValidationTables.aspx">Validation Tables</a>
-                        </li>--%>
                     </ul>
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-itemlogout">
