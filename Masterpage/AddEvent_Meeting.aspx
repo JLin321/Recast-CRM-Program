@@ -2,15 +2,15 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h1 style="padding-top:20px; font-family:Arial" class="text-center font-weight-bold text-uppercase">Add New Event/Meeting</h1>
-    <div class="row" style="padding-top:20px; font-family:Arial">
+    <h1 style="padding-top:20px; padding-bottom:20px; font-family:Arial" class="text-center font-weight-bold text-uppercase">Add New Event/Meeting</h1>
+    <div class="row" style="margin: 10px; font-family:Arial">
         <label for="inputEventMeetingTitle" class="col form-label">Event/Meeting Title</label>
         <label for="inputEventMeetingDate" class="col form-label">Event/Meeting Date</label>
         <label for="inputEventMeetingTime" class="col form-label">Event/Meeting Time</label>
     </div>
-    <div class="row" style="font-family:Arial">
-        <input type="text" class="col form-control" id="inputEventMeetingTitle" placeholder="Meeting/Event Title" required>
-        <input type="date" value="2022-11-09" class="col form-control" id="inputEventMeetingDate" placeholder="" required>
+    <div class="row" style="margin: 10px;font-family:Arial">
+        <input type="text" style="margin-right: 10px" class="col form-control" id="inputEventMeetingTitle" placeholder="Meeting/Event Title" required>
+        <input type="date" style="margin-right: 10px" value="2022-11-09" class="col form-control" id="inputEventMeetingDate" placeholder="" required>
         <input type="time" class="col form-control" id="inputEventMeetingTime" placeholder="" required>
     </div>
     <div class="row" style="padding:20px 10px 10px; font-family:Arial">
@@ -20,11 +20,11 @@
         <label for="inputEventMeetingState" class="col form-label">State</label>
         <label for="inputEventMeetingZipCode" class="col form-label">Zip Code</label>
     </div>
-    <div class="row" style="font-family:Arial">
-        <input type="text" class="col form-control" id="inputEventMeetingAddress" placeholder="" required>
-        <input type="text" class="col form-control" id="inputEventMeetingAddress2" placeholder="Floor, Ste., Unit, etc." required>
-        <input type="text" class="col form-control" id="inputEventMeetingCity" placeholder="--- City ---" required>
-        <select class="custom-select col form-control" id="inputEventMeetingState">
+    <div class="row" style="margin: 10px; font-family:Arial">
+        <input type="text" style="margin-right: 10px" class="col form-control" id="inputEventMeetingAddress" placeholder="" required>
+        <input type="text" style="margin-right: 10px" class="col form-control" id="inputEventMeetingAddress2" placeholder="Floor, Ste., Unit, etc." required>
+        <input type="text" style="margin-right: 10px" class="col form-control" id="inputEventMeetingCity" placeholder="--- City ---" required>
+        <select class="custom-select col form-control" style="margin-right: 10px" id="inputEventMeetingState">
             <option selected>--- State ---</option>
             <option value="1">AL</option>
             <option value="2">AK</option>
@@ -82,14 +82,14 @@
     <div class="row" style="padding:20px 10px 10px; font-family:Arial">
         <label for="inputEventMeetingDescription" class="col form-label">Event/Meeting Description</label>
     </div>
-    <div class="row" style="font-family:Arial">
+    <div class="row" style="margin: 10px;font-family:Arial">
         <textarea type="text" style="width: 400px;" class="col form-control" id="inputEventMeetingDescription" rows="4" placeholder="In this meeting..." required></textarea>
     </div>
-    <div class="row" style="padding:40px; font-family:Arial; font-size: 16px;">
-        <button type="button" class="btn btn-primary btn-lg" style="width: 300px; height: 300px">Add Partner/Organization Contact Person +</button>
-        <button type="button" class="btn btn-primary btn-lg" style="width: 300px; height: 300px">Add Unaffiliated Contact Person +</button>
+    <div class="row" style="padding:30px; font-family:Arial; font-size: 16px;">
+        <button type="button" class="btn btn-primary btn-lg" style="margin-right: 500px; width: 500px; height: 60px">Add Partner/Organization Contact Person +</button>
+        <button type="button" class="btn btn-primary btn-lg" style="width: 400px; height: 60px">Add Unaffiliated Contact Person +</button>
     </div>
     <div class="row justify-content-center" style="font-family:Arial; font-size: 16px 60px">
-        <button type="submit" class="btn btn-primary btn-lg" style="width:300px;height:300px;">Add</button>
+        <button type="submit" class="btn btn-primary btn-lg" style="width:250px;height:50px;">Add Event/Meeting</button>
     </div>
 </asp:Content>
