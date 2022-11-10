@@ -86,10 +86,10 @@
         <textarea type="text" style="width: 400px;" class="col form-control" id="inputEventMeetingDescription" rows="4" placeholder="In this meeting..." required></textarea>
     </div>
     <div class="row" style="padding:40px; font-family:Arial; font-size: 16px;">
-        <button type="button" class="btn btn-primary btn-lg" style="width: 50px; height: 30px">Add Partner/Organization Contact Person +</button>
-        <button type="button" class="btn btn-primary btn-lg" style="width: 50px; height: 30px">Add Unaffiliated Contact Person +</button>
+        <button type="button" class="btn btn-primary btn-lg" style="width: 300px; height: 300px">Add Partner/Organization Contact Person +</button>
+        <button type="button" class="btn btn-primary btn-lg" style="width: 300px; height: 300px">Add Unaffiliated Contact Person +</button>
     </div>
     <div class="row justify-content-center" style="font-family:Arial; font-size: 16px 60px">
-        <button type="submit" class="btn btn-primary btn-lg" style="width:60px;height:30px;">Add</button>
+        <button type="submit" class="btn btn-primary btn-lg" style="width:300px;height:300px;">Add</button>
     </div>
 </asp:Content>
