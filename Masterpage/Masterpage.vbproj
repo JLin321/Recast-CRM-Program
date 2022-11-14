@@ -93,6 +93,7 @@
     <Content Include="AddEvent_Meeting.aspx" />
     <Content Include="AddPartner_Organization.aspx" />
     <Content Include="AddUnaffiliatedContact.aspx" />
+    <Content Include="DetailedOverviewAdmin.aspx" />
     <Content Include="Search.aspx" />
     <Content Include="Users.aspx" />
     <Content Include="Settings.aspx" />
@@ -118,6 +119,13 @@
     </Compile>
     <Compile Include="AddUnaffiliatedContact.aspx.vb">
       <DependentUpon>AddUnaffiliatedContact.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="DetailedOverviewAdmin.aspx.designer.vb">
+      <DependentUpon>DetailedOverviewAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetailedOverviewAdmin.aspx.vb">
+      <DependentUpon>DetailedOverviewAdmin.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Main.Master.designer.vb">
