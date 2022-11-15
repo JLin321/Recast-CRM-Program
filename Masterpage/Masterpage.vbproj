@@ -92,6 +92,7 @@
   <ItemGroup>
     <Content Include="AddPartner_Organization.aspx" />
     <Content Include="AddUnaffiliatedContact.aspx" />
+    <Content Include="DetailedOverviewAdmin.aspx" />
     <Content Include="EditPartnerOrgAdmin.aspx" />
     <Content Include="EditUnaffiliatedContactAdmin.aspx" />
     <Content Include="Search.aspx" />
@@ -121,6 +122,11 @@
       <DependentUpon>AddUnaffiliatedContact.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="DetailedOverviewAdmin.aspx.designer.vb">
+      <DependentUpon>DetailedOverviewAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetailedOverviewAdmin.aspx.vb">
+      <DependentUpon>DetailedOverviewAdmin.aspx</DependentUpon>
     <Compile Include="EditPartnerOrgAdmin.aspx.designer.vb">
       <DependentUpon>EditPartnerOrgAdmin.aspx</DependentUpon>
     </Compile>
