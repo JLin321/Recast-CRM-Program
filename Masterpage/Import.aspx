@@ -14,11 +14,18 @@
           bottom: 0;
           left: 0;
         }
+        .required::after {
+            content: "*";
+            color: red;
+        }
     </style>
-    <h1 style="padding-top:20px; padding-bottom:20px; font-family:Arial" class="text-center font-weight-bold text-uppercase">Import</h1>
+    <h1 style="padding-top:20px; padding-bottom:20px; font-family:Arial" class="text-center font-weight-bold text-uppercase">Import External Data Sheet</h1>
     <center>
+        <div class="text-center form-label required" style="padding-top:20px; padding-bottom:10px; font-family:Arial">
+        File Upload
+        </div>
         <div class="row" style="font-family:Arial">
-            <select class="custom-select col form-control" style="margin: 175px 150px 50px">
+            <select class="custom-select col form-control" style="margin: 175px 150px 30px">
                 <option selected>---- Upload a file ----</option>
                 <option> File from computer +</option>
             </select>
