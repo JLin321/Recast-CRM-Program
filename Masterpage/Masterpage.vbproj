@@ -127,6 +127,7 @@
     </Compile>
     <Compile Include="DetailedOverviewAdmin.aspx.vb">
       <DependentUpon>DetailedOverviewAdmin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EditPartnerOrgAdmin.aspx.designer.vb">
       <DependentUpon>EditPartnerOrgAdmin.aspx</DependentUpon>
     </Compile>
