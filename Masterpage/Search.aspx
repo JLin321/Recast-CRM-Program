@@ -84,7 +84,7 @@
                      </a>
                  </div>
                  <div class="col">
-                     <a href="#">
+                     <a href="EditPartnerOrgAdmin.aspx">
                          <img src="https://icons.veryicon.com/png/o/miscellaneous/linear-small-icon/edit-246.png" alt="" height="25" width="25">
                      </a> 
                  </div>
@@ -187,7 +187,7 @@
                          <img src="https://icons.veryicon.com/png/o/miscellaneous/icon-library-of-x-bacteria/event-12.png" alt="" height="25" width="25">
                  </div>
                  <div class="col">
-                     <a href="#">
+                     <a href="EditPartnerOrgAdmin.aspx">
                          <img src="https://icons.veryicon.com/png/o/miscellaneous/linear-small-icon/edit-246.png" alt="" height="25" width="25">
                      </a> 
                  </div>
@@ -254,7 +254,7 @@
                          <img src="https://icons.veryicon.com/png/o/miscellaneous/icon-library-of-x-bacteria/event-12.png" alt="" height="25" width="25">
                  </div>
                  <div class="col">
-                     <a href="#">
+                     <a href="EditPartnerOrgAdmin.aspx">
                          <img src="https://icons.veryicon.com/png/o/miscellaneous/linear-small-icon/edit-246.png" alt="" height="25" width="25">
                      </a> 
                  </div>
