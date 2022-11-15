@@ -8,25 +8,31 @@
           color:red;
         }
     </style>
-    <h1 style="padding-top:20px; font-family:Arial" class="text-center font-weight-bold">Add New Unaffiliated Contact</h1>
+    <h1 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">Add New Unaffiliated Contact</h1>
     <div id="AddUnaffiliatedContactForm" style="font-family:Arial; margin-left: 10%; margin-right: 10%;">
         <div class="row form-group required">
             <label for="inputUnaffiliatedFirstName" class="col control-label">First Name</label>
-            <label for="inputUnaffiliatedMiddleName" class="col form-label">Middle Name</label>
             <label for="inputUnaffiliatedLastName" class="col control-label">Last Name</label>
         </div>
         <div class="row">
             <input type="text" class="col form-control required" id="inputUnaffiliatedFirstName" placeholder="First Name" required>
-            <input type="text" class="col form-control" id="inputUnaffiliatedMiddleName" placeholder="Middle Name">
             <input type="text" class="col form-control required" id="inputUnaffiliatedLastName" placeholder="Last Name" required>
         </div>
+        <div class="row">
+            <label for="inputUnaffiliatedEmail" class="col form-label">Email</label>
+            <label for="inputUnaffiliatedPhoneNumer" class="col form-label">Phone Number</label>
+        </div>
+        <div class="row">
+          <input type="email" class="col form-control" id="inputUnaffiliatedEmail" placeholder="name@example.com">
+          <input type="tel" class="col form-control" id="inputUnaffiliatedPhoneNumber" placeholder="Phone Number">
+        </div>
          <div class="row form-group required">
-            <label for="inputUnaffiliatedNeighborhood" class="col control-label">Neighborhood</label>
+            <label for="inputUnaffiliatedNeighborhood" class="col form-label">Neighborhood</label>
             <label for="inputUnaffiliatedAddressLine1" class="col form-label">Address Line 1</label>
             <label for="inputUnaffiliatedAddressLine2" class="col form-label">Address Line 2</label>
         </div>
         <div class="row">
-            <select class="custom-select col form-control" id="inputPartnerOrgNeighborhood" required>
+            <select class="custom-select col form-control" id="inputPartnerOrgNeighborhood">
                 <option selected>Partner/Organization Neighborhood...</option>
                 <option value="1">Strawberry Mansion</option>
                 <option value="2">Sharswood-Stanton</option>
@@ -36,16 +42,16 @@
                 <option value="6">Paschall-Kingsessing</option>
             </select>
             <input type="text" class="col form-control" id="inputUnaffiliatedAddressLine1" placeholder="Street">
-            <input type="text" class="col form-control" id="inputUnaffiliatedAddressLine2" placeholder="Apt #">
+            <input type="text" class="col form-control" id="inputUnaffiliatedAddressLine2" placeholder="Floor, Ste., Unit, etc.">
         </div>
         <div class="row form-group required">
             <label for="inputUnaffiliatedCity" class="col form-label">City</label>
             <label for="inputUnaffiliatedState" class="col form-label">State</label>
-            <label for="inputUnaffiliatedZipCode" class="col control-label">ZipCode</label>
+            <label for="inputUnaffiliatedZipCode" class="col form-label">ZipCode</label>
         </div>
         <div class="row">
             <input type="text" class="col form-control" id="inputUnaffiliatedCity" placeholder="City">
-            <select class="custom-select col form-control" id="inputState" required>
+            <select class="custom-select col form-control" id="inputState">
                 <option selected>--- State ---</option>
                     <option value="1">AL</option>
                     <option value="2">AK</option>
@@ -98,15 +104,7 @@
                     <option value="49">WI</option>
                     <option value="50">WY</option>
             </select>
-            <input type="number" class="col form-control" id="inputUnaffiliatedZipCode" placeholder="ZipCode" required>
-        </div>
-        <div class="row">
-            <label for="inputUnaffiliatedEmail" class="col form-label">Email</label>
-            <label for="inputUnaffiliatedPhoneNumer" class="col form-label">Phone Number</label>
-        </div>
-        <div class="row">
-          <input type="email" class="col form-control" id="inputUnaffiliatedEmail" placeholder="name@example.com">
-          <input type="tel" class="col form-control" id="inputUnaffiliatedPhoneNumber" placeholder="Phone Number">
+            <input type="number" class="col form-control" id="inputUnaffiliatedZipCode" placeholder="xxxxx">
         </div>
         <div class="row">
             <label for="inputUnaffiliatedComment" class="col form-label">Unaffiliated Individual Comment</label>
@@ -116,7 +114,7 @@
         </div>
         <br>
         <div class="text-center">
-            <button style="width:100px" type="submit" id="saveBtn" class="btn btn-primary text-white btn-rounded">Add</button>
+            <button style="width:100px" type="submit" id="saveBtn" class="btn btn-primary text-white btn-rounded">Submit</button>
         </div>
     </div>
 </asp:Content>

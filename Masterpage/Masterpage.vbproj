@@ -92,8 +92,9 @@
   <ItemGroup>
     <Content Include="AddPartner_Organization.aspx" />
     <Content Include="AddUnaffiliatedContact.aspx" />
+    <Content Include="EditPartnerOrgAdmin.aspx" />
+    <Content Include="EditUnaffiliatedContactAdmin.aspx" />
     <Content Include="Search.aspx" />
-    <Content Include="Settings.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +110,20 @@
     </Compile>
     <Compile Include="AddUnaffiliatedContact.aspx.vb">
       <DependentUpon>AddUnaffiliatedContact.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="EditPartnerOrgAdmin.aspx.designer.vb">
+      <DependentUpon>EditPartnerOrgAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditPartnerOrgAdmin.aspx.vb">
+      <DependentUpon>EditPartnerOrgAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="EditUnaffiliatedContactAdmin.aspx.designer.vb">
+      <DependentUpon>EditUnaffiliatedContactAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditUnaffiliatedContactAdmin.aspx.vb">
+      <DependentUpon>EditUnaffiliatedContactAdmin.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Main.Master.designer.vb">
@@ -142,13 +157,6 @@
     </Compile>
     <Compile Include="Search.aspx.vb">
       <DependentUpon>Search.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Settings.aspx.designer.vb">
-      <DependentUpon>Settings.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Settings.aspx.vb">
-      <DependentUpon>Settings.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>

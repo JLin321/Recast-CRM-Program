@@ -8,9 +8,9 @@
           color:red;
         }
     </style>
-    <h1 style="padding-top:20px; font-family:Arial" class="text-center">Add New Partner/Organization</h1>
+    <h1 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">Add New Partner/Organization</h1>
     <div id="AddPartnerOrgForm" style="font-family:Arial; margin-left: 10%; margin-right: 10%;">
-        <h2 style="margin-top:0px;padding:10px;font-family:Arial" class="text-center">Partner/Organization Basic Information</h2>
+         <h2 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">Partner/Organization Basic Information</h2>
         <div class="row form-group required">
             <label for="inputPartnerOrgName" class="col control-label">Partner/Organization Name</label>
             <label for="inputPartnerOrgType" class="col control-label">Partner/Organization Type</label>
@@ -42,7 +42,7 @@
                 <option value="6">Paschall-Kingsessing</option>
             </select>
             <input type="text" class="col form-control" id="inputPartnerOrgAddressLine1" placeholder="Street" required>
-            <input type="text" class="col form-control" id="inputPartnerOrgAddressLine2" placeholder="Apt #">
+            <input type="text" class="col form-control" id="inputPartnerOrgAddressLine2" placeholder="Floor, Ste., Unit, etc.">
         </div>
         <div class="row form-group required">
             <label for="inputCity" class="col control-label">Partner/Organization City</label>
@@ -104,7 +104,7 @@
                 <option value="49">WI</option>
                 <option value="50">WY</option>
             </select>
-            <input type="number" class="col form-control" id="inputZipCode" placeholder="ZipCode" required>
+            <input type="number" class="col form-control" id="inputZipCode" placeholder="xxxxx" required>
         </div>
         <div class="row">
             <label for="inputEmail" class="col form-label">Partner/Organization Email</label>
@@ -118,7 +118,6 @@
         </div>
         <div class="row form-group required">
             <label for="inputPartnerOrgSetting" class="col control-label">Partner/Organization Setting</label>
-            <label for="inputPartnerOrgSpecial" class="col control-label">Partner/Organization Special</label>
         </div>
         <div class="row">
             <select class="custom-select col form-control" id="inputPartnerOrgSetting" required>
@@ -133,77 +132,90 @@
                 <option value="8">Community Based Advocacy/Engagement</option>
                 <option value="9">Other</option>
             </select>
-            <select class="custom-select col form-control" id="inputPartnerOrgSpecial" required>
-                <option selected>Partner/Organization Special...</option>
-                <option value="1">Yes</option>
-                <option value="2">No</option>
-            </select>
+            <div class="row form-group required">
+                <label for="inputPartnerOrgSpecial" class="col control-label">Partner/Organization Special</label>
+            </div>
+            <div>
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label"><input class="form-check-input" type="radio" name="radioPartnerOrgSpecial" id="radioYesPartnerOrgSpecial" value="option1">Yes</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label"><input class="form-check-input" type="radio" name="radioPartnerOrgSpecial" id="radioNoPartnerOrgSpecial" value="option2">No</label>
+                </div>
+            </div>
         </div>
         <div class="row form-group required">
-            <label for="inputPartnerOrgFocus" class="col control-label">Partner/Organization Focus</label>
             <label for="inputPartnerOrgSpecialComment" class="col form-label">Partner/Organization Special Comment</label>
         </div>
         <div class="row">
-            <select class="custom-select col form-control" multiple id="inputPartnerOrgFocus" required>
-                <option value="1">Mental Health</option>
-                <option value="2">Behavioral Health</option>
-                <option value="3">Health</option>
-                <option value="4">Substance Abuse</option>
-                <option value="5">Violence/ Violence Prevention</option>
-                <option value="6">Criminal Justice</option>
-                <option value="7">Education</option>
-                <option value="8">Senior/ Older Adult Services</option>
-                <option value="9">Childcare</option>
-                <option value="9">Food Assistance</option>
-                <option value="9">Legal Assistance</option>
-                <option value="9">Youth Services</option>
-                <option value="9">Community Empowerment</option>
-                <option value="9">Other</option>
-            </select>
             <textarea type="text" class="col form-control" id="inputPartnerOrgSpecialComment" rows="3" placeholder="Special Comment Here"></textarea>
         </div>
-        <h2 style="margin-top:0px;padding:10px;font-family:Arial" class="text-center">Services Offered</h2>
+        <div class="row form-group required">
+            <h2 style="text-align: center; margin-top: 10px; margin-bottom: 5px;">Partner/Organization Focus</h2>
+            <p style="text-align: center; margin-top: 5px; margin-bottom: 10px;">*Check all of the Focuses that align with a Partner/Organization </p>
+        </div>
+        <div>
+            <div class="row">
+                <label class="col checkbox-inline p-2"><input type="checkbox" name="checkboxMentalHealth" id="checkboxYMentalHealth" value="">Mental Health</label>
+                <label class="col checkbox-inline p-2"><input type="checkbox" name="checkboxBehavioralHealth" id="checkboxBehavioralHealth" value="">Behavioral Health</label>
+                <label class="col checkbox-inline p-2"><input type="checkbox" name="checkboxHealth" id="checkboxHealth" value="">Health</label>
+                <label class="col checkbox-inline p-2"><input type="checkbox" name="checkboxSubstanceAbuse" id="checkboxSubstanceAbuse" value="">Substance Abuse</label>
+            </div>
+            <div class="row">
+                <label class="col checkbox-inline p-2"><input type="checkbox" name="checkboxViolencePrevention" id="checkboxViolencePrevention" value="">Violence/Violence Prevention</label>
+                <label class="col checkbox-inline p-2"><input type="checkbox" name="checkboxCriminalJustice" id="checkboxCriminalJustice" value="">Criminal Justice</label>
+                <label class="col checkbox-inline p-2"><input type="checkbox" name="checkboxEducation" id="checkboxEducation" value="">Education</label>
+                <label class="col checkbox-inline p-2"><input type="checkbox" name="checkboxSeniorAdultServices" id="checkboxSeniorAdultServices" value="">Senior/Older Adult Services</label>
+            </div>
+            <div class="row">
+                <label class="col checkbox-inline p-2"><input type="checkbox" name="checkboxChildcare" id="checkboxChildcare" value="">Childcare</label>
+                <label class="col checkbox-inline p-2"><input type="checkbox" name="checkboxFoodAssistance" id="checkboxFoodAssistance" value="">Food Assistance</label>
+                <label class="col checkbox-inline p-2"><input type="checkbox" name="checkboxLegalAssistance" id="checkboxLegalAssistance" value="">Legal Assistance</label>
+                <label class="col checkbox-inline p-2"><input type="checkbox" name="checkboxYouthServices" id="checkboxYouthServices" value="">Youth Services</label>
+            </div>
+             <div class="row">
+                <label class="col checkbox-inline p-2"><input type="checkbox" name="checkboxCommunityEmpowerment" id="checkboxCommunityEmpowerment" value="">Community Empowerment</label>
+                <label class="col checkbox-inline p-2"><input type="checkbox" name="checkboxOther" id="checkboxOther" value="">Other</label>
+            </div>
+        </div>
+        <h2 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">Services Offered</h2>
         <div class="row form-group required">
             <label for="inputPartnerOrgTraumaService" class="col control-label">Does Partner/Organization Provide Trauma Informed Services?</label>
         </div>
-         <div class="row">
-            <select class="custom-select col form-control required" id="inputPartnerOrgTraumaService" required>
-                    <option selected>Choose...</option>
-                    <option value="1">Yes</option>
-                    <option value="2">No</option>
-            </select>
+        <div class="form-check form-check-inline">
+            <label class="form-check-label"><input class="form-check-input" type="radio" name="radioPartnerOrgProvideTraumaServices" id="radioYesPartnerOrgProvideTraumaServices" value="option1">Yes</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <label class="form-check-label"><input class="form-check-input" type="radio" name="radioPartnerOrgProvideTraumaServices" id="radioNoPartnerOrgProvideTraumaServices" value="option2">No</label>
         </div>
         <div class="row form-group required">
             <label for="inputPartnerOrgDealWithYouth" class="col control-label">Does Partner/Organization Deal with the Youth?</label>
         </div>
-         <div class="row">
-            <select class="custom-select col form-control" id="inputPartnerOrgDealWithYouth" required>
-                    <option selected>Choose...</option>
-                    <option value="1">Yes</option>
-                    <option value="2">No</option>
-            </select>
+        <div class="form-check form-check-inline">
+            <label class="form-check-label"><input class="form-check-input" type="radio" name="radioPartnerOrgDealWithYouth" id="radioYesPartnerOrgDealWithYouth" value="option1">Yes</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <label class="form-check-label"><input class="form-check-input" type="radio" name="radioPartnerOrgDealWithYouth" id="radioNoPartnerOrgDealWithYouth" value="option2">No</label>
         </div>
         <div class="row form-group required">
             <label for="inputPartnerProvideMentalBehavioralServices" class="col control-label">Does Partner/Organization Provide Mental or Behavioral Health Services?</label>
         </div>
-        <div class="row form-group required">
-            <select class="custom-select col form-control" id="inputPartnerProvideMentalBehavioralServices" required>
-                    <option selected>Choose...</option>
-                    <option value="1">Yes</option>
-                    <option value="2">No</option>
-            </select>
+        <div class="form-check form-check-inline">
+            <label class="form-check-label"><input class="form-check-input" type="radio" name="radioPartnerOrgProvideMentalHealthServices" id="radioYesPartnerOrgProvieMentalHealthServices" value="option1">Yes</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <label class="form-check-label"><input class="form-check-input" type="radio" name="radioPartnerOrgProvideMentalHealthServices" id="radioNoPartnerOrgProvieMentalHealthServices" value="option2">No</label>
         </div>
         <div class="row form-group required">
-            <label for="inputPartnerProvideViolencePrevention" class="col control-label">Does Partner/Organization Provide Violence?</label>
+            <label for="inputPartnerProvideViolencePrevention" class="col control-label">Does Partner/Organization Provide Violence Prevention Programs?</label>
         </div>
-        <div class="row">
-            <select class="custom-select col form-control" id="inputPartnerProvideViolencePrevention" required>
-                    <option selected>Choose...</option>
-                    <option value="1">Yes</option>
-                    <option value="2">No</option>
-            </select>
+        <div class="form-check form-check-inline">
+            <label class="form-check-label"><input class="form-check-input" type="radio" name="radioPartnerOrgProvideViolencePrevention" id="radioYesPartnerOrgDealProvideViolencePrevention" value="option1">Yes</label>
         </div>
-            <h2 style="margin-top:0px;padding:10px;font-family:Arial" class="text-center">Partner/Organization Contact Person Information</h2>
+        <div class="form-check form-check-inline">
+            <label class="form-check-label"><input class="form-check-input" type="radio" name="radioPartnerOrgProvideViolencePrevention" id="radioNoPartnerOrgDealProvideViolencePrevention" value="option2">No</label>
+        </div>
+            <h2 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">Partner/Organization Contact Person Information</h2>
             <div class="col-sm-12">
                     <button type="button" class="btn btn-primary text-white col-6" style="padding-bottom:10px;" data-bs-toggle="modal" data-bs-target="#addContactPerson">Add Contact Person +</button>
                     <label> * Can Add Multiple Contact Persons</label>
@@ -242,7 +254,7 @@
                                         </div>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="reset" class="btn btn-danger" id="closeBtn"data-bs-dismiss="modal">Close</button>
+                                        <button type="reset" class="btn btn-danger" id="closeBtn"data-bs-dismiss="modal">Cancel</button>
                                         <button type="button" class="btn btn-primary" id="submitBtn" data-bs-dismiss="modal">Submit</button>
                                    </div>
                             </div>
@@ -254,7 +266,7 @@
         <div id="newContact"></div>
         <br>
         <div class="text-center">
-            <button style="width:100px" type="submit" id="saveBtn" class="btn btn-primary text-white btn-rounded">Add</button>
+            <button style="width:100px" type="submit" id="saveBtn" class="btn btn-primary text-white btn-rounded">Submit</button>
         </div>
     </div>
     <script>
