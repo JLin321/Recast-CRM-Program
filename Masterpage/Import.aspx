@@ -19,7 +19,7 @@
             color: red;
         }
     </style>
-    <h1 style="padding-top:20px; padding-bottom:20px; font-family:Arial" class="text-center font-weight-bold text-uppercase">Import External Data Sheet</h1>
+    <h1 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">Import External Data Sheet</h1>
     <center>
         <div class="text-center form-label required" style="padding-top:20px; padding-bottom:10px; font-family:Arial">
         File Upload

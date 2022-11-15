@@ -90,13 +90,13 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AddEventMeeting.aspx" />
     <Content Include="AddPartner_Organization.aspx" />
     <Content Include="AddUnaffiliatedContact.aspx" />
     <Content Include="Import.aspx" />
     <Content Include="DetailedOverviewAdmin.aspx" />
     <Content Include="EditPartnerOrgAdmin.aspx" />
     <Content Include="EditUnaffiliatedContactAdmin.aspx" />
-
     <Content Include="Search.aspx" />
     <Content Include="CategoryFocusValidation.aspx" />
     <Content Include="CategorySettingValidation.aspx" />
@@ -110,6 +110,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddEventMeeting.aspx.designer.vb">
+      <DependentUpon>AddEventMeeting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddEventMeeting.aspx.vb">
+      <DependentUpon>AddEventMeeting.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="AddPartner_Organization.aspx.designer.vb">
       <DependentUpon>AddPartner_Organization.aspx</DependentUpon>
     </Compile>
@@ -129,12 +136,14 @@
     </Compile>
     <Compile Include="Import.aspx.vb">
       <DependentUpon>Import.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DetailedOverviewAdmin.aspx.designer.vb">
       <DependentUpon>DetailedOverviewAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="DetailedOverviewAdmin.aspx.vb">
       <DependentUpon>DetailedOverviewAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="EditPartnerOrgAdmin.aspx.designer.vb">
       <DependentUpon>EditPartnerOrgAdmin.aspx</DependentUpon>
@@ -148,6 +157,7 @@
     </Compile>
     <Compile Include="EditUnaffiliatedContactAdmin.aspx.vb">
       <DependentUpon>EditUnaffiliatedContactAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="CategoryFocusValidation.aspx.designer.vb">
       <DependentUpon>CategoryFocusValidation.aspx</DependentUpon>
