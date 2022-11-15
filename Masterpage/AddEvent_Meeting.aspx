@@ -2,11 +2,17 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <style>
+        .required::after {
+            content: "*";
+            color: red;
+        }
+    </style>
     <h1 style="padding-top:20px; padding-bottom:20px; font-family:Arial" class="text-center font-weight-bold text-uppercase">Add New Event/Meeting</h1>
     <div class="row" style="margin: 10px; font-family:Arial">
-        <label for="inputEventMeetingTitle" class="col form-label">Event/Meeting Title</label>
-        <label for="inputEventMeetingDate" class="col form-label">Event/Meeting Date</label>
-        <label for="inputEventMeetingTime" class="col form-label">Event/Meeting Time</label>
+        <label for="inputEventMeetingTitle" class="col form-label required">Event/Meeting Title</label>
+        <label for="inputEventMeetingDate" class="col form-label required">Event/Meeting Date</label>
+        <label for="inputEventMeetingTime" class="col form-label required">Event/Meeting Time</label>
     </div>
     <div class="row" style="margin: 10px;font-family:Arial">
         <input type="text" style="margin-right: 10px" class="col form-control" id="inputEventMeetingTitle" placeholder="Meeting/Event Title" required>
@@ -14,15 +20,15 @@
         <input type="time" class="col form-control" id="inputEventMeetingTime" placeholder="" required>
     </div>
     <div class="row" style="padding:20px 10px 10px; font-family:Arial">
-        <label for="inputEventMeetingAddress" class="col form-label">Address 1</label>
+        <label for="inputEventMeetingAddress" class="col form-label required">Address 1</label>
         <label for="inputEventMeetingAddress2" class="col form-label">Address 2</label>
-        <label for="inputEventMeetingCity" class="col form-label">City</label>
-        <label for="inputEventMeetingState" class="col form-label">State</label>
-        <label for="inputEventMeetingZipCode" class="col form-label">Zip Code</label>
+        <label for="inputEventMeetingCity" class="col form-label required">City</label>
+        <label for="inputEventMeetingState" class="col form-label required">State</label>
+        <label for="inputEventMeetingZipCode" class="col form-label required">Zip Code</label>
     </div>
     <div class="row" style="margin: 10px; font-family:Arial">
         <input type="text" style="margin-right: 10px" class="col form-control" id="inputEventMeetingAddress" placeholder="" required>
-        <input type="text" style="margin-right: 10px" class="col form-control" id="inputEventMeetingAddress2" placeholder="Floor, Ste., Unit, etc." required>
+        <input type="text" style="margin-right: 10px" class="col form-control" id="inputEventMeetingAddress2" placeholder="Floor, Ste., Unit, etc.">
         <input type="text" style="margin-right: 10px" class="col form-control" id="inputEventMeetingCity" placeholder="--- City ---" required>
         <select class="custom-select col form-control" style="margin-right: 10px" id="inputEventMeetingState">
             <option selected>--- State ---</option>
@@ -80,7 +86,7 @@
         <input type="text" class="col form-control" id="inputEventMeetingZipcode" placeholder="xxxxx" required>
     </div>
     <div class="row" style="padding:20px 10px 10px; font-family:Arial">
-        <label for="inputEventMeetingDescription" class="col form-label">Event/Meeting Description</label>
+        <label for="inputEventMeetingDescription" class="col form-label required">Event/Meeting Description</label>
     </div>
     <div class="row" style="margin: 10px;font-family:Arial">
         <textarea type="text" style="width: 400px;" class="col form-control" id="inputEventMeetingDescription" rows="4" placeholder="In this meeting..." required></textarea>
