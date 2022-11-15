@@ -139,6 +139,7 @@
     </Compile>
     <Compile Include="EditUnaffiliatedContactAdmin.aspx.vb">
       <DependentUpon>EditUnaffiliatedContactAdmin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CategoryFocusValidation.aspx.designer.vb">
       <DependentUpon>CategoryFocusValidation.aspx</DependentUpon>
     </Compile>
