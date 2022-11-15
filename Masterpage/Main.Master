@@ -14,15 +14,46 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <style>
+        .imgbutton {
+            background-image: url("https://icons.veryicon.com/png/o/miscellaneous/linear-small-icon/edit-246.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 25px;
+            height: 25px;
+        }
+
+        .validtable {
+            max-width: 1345px;
+        }
+
+        .userswidth {
+            max-width: 1345px;
+        }
+
+        .usertypewidth {
+            max-width: 1345px;
+        }
+
+        .catefocuswidth {
+            max-width: 1345px;
+        }
+
+        .catesettingwidth {
+            max-width: 1345px;
+        }
+
+
         .dropdowncontent {
-        left:auto;
-        right: -1em;
-        text-align:right;
+            left: auto;
+            right: -1em;
+            text-align: right;
         }
 
         .nav-link:hover {
-        color: #000000 !important;
-        }  
+            color: #000000 !important;
+        }
+
         .nav-item {
             font-size: 18px;
             text-decoration: underline;
@@ -40,10 +71,11 @@
         .navbar-custom {
             background-color: #67a5ef;
         }
+
         .btndropdown-custom {
-            font-size:18px;
+            font-size: 18px;
             background-color: #67a5ef;
-            color: white; 
+            color: white;
             text-decoration: underline;
             outline: none;
         }
@@ -81,9 +113,6 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="Users.aspx">Users</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="Settings.aspx">Profile</a>
                         </li>
                         <li class="nav-item">
                             <div class="dropdown">
