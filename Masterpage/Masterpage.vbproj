@@ -129,6 +129,7 @@
     </Compile>
     <Compile Include="Import.aspx.vb">
       <DependentUpon>Import.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DetailedOverviewAdmin.aspx.designer.vb">
       <DependentUpon>DetailedOverviewAdmin.aspx</DependentUpon>
     </Compile>
