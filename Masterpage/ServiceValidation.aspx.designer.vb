@@ -12,5 +12,5 @@ Option Explicit On
 
 
 
-Partial Public Class Settings
+Partial Public Class ServiceValidation
 End Class
