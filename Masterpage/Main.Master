@@ -112,9 +112,6 @@
                             <a class="nav-link active" aria-current="page" href="AddEvent_Meeting.aspx">Add Event/Meeting</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#Import.aspx">Import</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="Users.aspx">Users</a>
                         </li>
                         <li class="nav-item">
@@ -123,7 +120,7 @@
                                     Admin actions
                                 </button>
                                 <ul class="dropdown-menu dropdowncontent">
-                                    <li><a class="dropdown-item" href="#">Import</a></li>
+                                    <li><a class="dropdown-item" href="Import.aspx">Import</a></li>
                                     <li><a class="dropdown-item" href="ValidationTables.aspx">Validation Tables</a></li>
                                 </ul>
                             </div>
