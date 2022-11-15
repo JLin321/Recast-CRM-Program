@@ -90,9 +90,11 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AddEvent_Meeting.aspx" />
     <Content Include="AddPartner_Organization.aspx" />
     <Content Include="AddUnaffiliatedContact.aspx" />
+    <Content Include="EditPartnerOrgAdmin.aspx" />
+    <Content Include="EditUnaffiliatedContactAdmin.aspx" />
+    <Content Include="Search.aspx" />
     <Content Include="CategoryFocusValidation.aspx" />
     <Content Include="CategorySettingValidation.aspx" />
     <Content Include="CategoryTypeValidation.aspx" />
@@ -105,13 +107,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddEvent_Meeting.aspx.designer.vb">
-      <DependentUpon>AddEvent_Meeting.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AddEvent_Meeting.aspx.vb">
-      <DependentUpon>AddEvent_Meeting.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
     <Compile Include="AddPartner_Organization.aspx.designer.vb">
       <DependentUpon>AddPartner_Organization.aspx</DependentUpon>
     </Compile>
@@ -126,6 +121,18 @@
       <DependentUpon>AddUnaffiliatedContact.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="EditPartnerOrgAdmin.aspx.designer.vb">
+      <DependentUpon>EditPartnerOrgAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditPartnerOrgAdmin.aspx.vb">
+      <DependentUpon>EditPartnerOrgAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="EditUnaffiliatedContactAdmin.aspx.designer.vb">
+      <DependentUpon>EditUnaffiliatedContactAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditUnaffiliatedContactAdmin.aspx.vb">
+      <DependentUpon>EditUnaffiliatedContactAdmin.aspx</DependentUpon>
     <Compile Include="CategoryFocusValidation.aspx.designer.vb">
       <DependentUpon>CategoryFocusValidation.aspx</DependentUpon>
     </Compile>
