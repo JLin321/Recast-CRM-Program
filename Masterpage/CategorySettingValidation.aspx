@@ -13,8 +13,8 @@
                     <li><a class="dropdown-item" href="CategoryFocusValidation.aspx">Category Focus Validation</a></li>
                     <li><a class="dropdown-item" href="CategorySettingValidation.aspx">Category Setting Validation</a></li>
                     <li><a class="dropdown-item" href="CategoryTypeValidation.aspx">Category Type Validation</a></li>
-                    <li><a class="dropdown-item" href="ServiceValidation.aspx">Service Validation</a></li>
                     <li><a class="dropdown-item" href="NeighborhoodValidation.aspx">Neighborhood Validation</a></li>
+                    <li><a class="dropdown-item" href="ServiceValidation.aspx">Service Validation</a></li>
                     <li><a class="dropdown-item" href="UserTypeValidation.aspx">UserType Validation</a></li>
                 </ul>
             </div>
