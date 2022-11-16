@@ -99,9 +99,16 @@
                 </button>
                 <div class="collapse navbar-collapse ms-auto" id="navbarNav">
                     <ul class="navbar-nav">
-
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="Search.aspx">Search</a>
+                         <li class="nav-item">
+                            <div class="dropdown">
+                                <button class="btn btndropdown-custom dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Search Options
+                                </button>
+                                <ul class="dropdown-menu dropdowncontent">
+                                    <li><a class="dropdown-item" href="Search.aspx">Partner/Organization</a></li>
+                                    <li><a class="dropdown-item" href="SearchUnaffiliatedContacts.aspx">Unaffiliated Contact</a></li>
+                                </ul>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="AddPartner_Organization.aspx">Add Partner/Organization</a>
