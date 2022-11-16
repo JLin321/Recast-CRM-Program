@@ -106,32 +106,19 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Mental Health</td>
-                        <td>Active</td>
-                        <td>
-                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditFocus"></button>
-                        </td>
-                    </tr>
-                    <tr>
                         <td>Behavioral health</td>
                         <td>Active</td>
                         <td>
                             <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditFocus"></button>
                     </tr>
                     <tr>
-                        <td>Health</td>
+                        <td>Childcare</td>
                         <td>Active</td>
                         <td>
                             <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditFocus"></button>
                     </tr>
                     <tr>
-                        <td>Substance abuse</td>
-                        <td>Active</td>
-                        <td>
-                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditFocus"></button>
-                    </tr>
-                    <tr>
-                        <td>Violence/Violence Prevention</td>
+                        <td>Community empowerment</td>
                         <td>Active</td>
                         <td>
                             <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditFocus"></button>
@@ -149,19 +136,13 @@
                             <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditFocus"></button>
                     </tr>
                     <tr>
-                        <td>Senior/older adult services</td>
-                        <td>Active</td>
-                        <td>
-                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditFocus"></button>
-                    </tr>
-                    <tr>
-                        <td>Childcare</td>
-                        <td>Active</td>
-                        <td>
-                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditFocus"></button>
-                    </tr>
-                    <tr>
                         <td>Food assistance</td>
+                        <td>Active</td>
+                        <td>
+                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditFocus"></button>
+                    </tr>
+                    <tr>
+                        <td>Health</td>
                         <td>Active</td>
                         <td>
                             <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditFocus"></button>
@@ -173,13 +154,32 @@
                             <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditFocus"></button>
                     </tr>
                     <tr>
-                        <td>Youth Services</td>
+                        <td>Mental Health</td>
+                        <td>Active</td>
+                        <td>
+                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditFocus"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Senior/older adult services</td>
                         <td>Active</td>
                         <td>
                             <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditFocus"></button>
                     </tr>
                     <tr>
-                        <td>Community empowerment</td>
+                        <td>Substance abuse</td>
+                        <td>Active</td>
+                        <td>
+                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditFocus"></button>
+                    </tr>
+                    <tr>
+                        <td>Violence/Violence Prevention</td>
+                        <td>Active</td>
+                        <td>
+                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditFocus"></button>
+                    </tr>
+                    <tr>
+                        <td>Youth Services</td>
                         <td>Active</td>
                         <td>
                             <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditFocus"></button>

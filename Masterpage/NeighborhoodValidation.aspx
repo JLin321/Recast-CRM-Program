@@ -124,31 +124,6 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Strawberry Mansion</td>
-                        <td>11245</td>
-                        <td>Philadelphia</td>
-                        <td>Active</td>
-                        <td>
-                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditNeighborhood"></button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Sharswood-Stanton</td>
-                        <td>96075</td>
-                        <td>Philadelphia</td>
-                        <td>Active</td>
-                        <td>
-                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditNeighborhood"></button>
-                    </tr>
-                    <tr>
-                        <td>Nicotown-Tioga</td>
-                        <td>19463</td>
-                        <td>Philadelphia</td>
-                        <td>Active</td>
-                        <td>
-                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditNeighborhood"></button>
-                    </tr>
-                    <tr>
                         <td>Cobbs Creek</td>
                         <td>09742</td>
                         <td>Philadelphia</td>
@@ -165,12 +140,37 @@
                             <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditNeighborhood"></button>
                     </tr>
                     <tr>
+                        <td>Nicotown-Tioga</td>
+                        <td>19463</td>
+                        <td>Philadelphia</td>
+                        <td>Active</td>
+                        <td>
+                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditNeighborhood"></button>
+                    </tr>
+                    <tr>
                         <td>Paschall-Kingsessing</td>
                         <td>18429</td>
                         <td>Philadelphia</td>
                         <td>Active</td>
                         <td>
                             <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditNeighborhood"></button>
+                    </tr>
+                    <tr>
+                        <td>Sharswood-Stanton</td>
+                        <td>96075</td>
+                        <td>Philadelphia</td>
+                        <td>Active</td>
+                        <td>
+                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditNeighborhood"></button>
+                    </tr>
+                    <tr>
+                        <td>Strawberry Mansion</td>
+                        <td>11245</td>
+                        <td>Philadelphia</td>
+                        <td>Active</td>
+                        <td>
+                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditNeighborhood"></button>
+                        </td>
                     </tr>
                 </tbody>
             </table>

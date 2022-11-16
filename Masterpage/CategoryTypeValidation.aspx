@@ -1,8 +1,9 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Main.Master" CodeBehind="CategoryTypeValidation.aspx.vb" Inherits="Masterpage.CategoryTypeValidation" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-            <h1 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">Category Partner/Organization Type Validation Tables</h1>
+    <h1 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">Category Partner/Organization Type Validation Tables</h1>
     <nav class="navbar">
         <div class="container-fluid catesettingwidth">
             <div class="dropdown">
@@ -10,7 +11,7 @@
                     Validation Tables
                 </button>
                 <ul class="dropdown-menu">
-                     <li><a class="dropdown-item" href="CategoryFocusValidation.aspx">Category Focus Validation</a></li>
+                    <li><a class="dropdown-item" href="CategoryFocusValidation.aspx">Category Focus Validation</a></li>
                     <li><a class="dropdown-item" href="CategorySettingValidation.aspx">Category Setting Validation</a></li>
                     <li><a class="dropdown-item" href="CategoryTypeValidation.aspx">Category Type Validation</a></li>
                     <li><a class="dropdown-item" href="NeighborhoodValidation.aspx">Neighborhood Validation</a></li>
@@ -105,11 +106,10 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Private, non-profit</td>
+                        <td>Informal group</td>
                         <td>Active</td>
                         <td>
                             <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditPOType"></button>
-                        </td>
                     </tr>
                     <tr>
                         <td>Private, for-profit</td>
@@ -118,13 +118,15 @@
                             <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditPOType"></button>
                     </tr>
                     <tr>
-                        <td>Public</td>
+                        <td>Private, non-profit</td>
                         <td>Active</td>
                         <td>
                             <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditPOType"></button>
+                        </td>
                     </tr>
+
                     <tr>
-                        <td>Informal group</td>
+                        <td>Public</td>
                         <td>Active</td>
                         <td>
                             <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditPOType"></button>

@@ -105,20 +105,13 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Youth</td>
+                        <td>Mental Health</td>
                         <td>Active</td>
                         <td>
                             <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditService"></button>
-                        </td>
                     </tr>
                     <tr>
                         <td>Trauma Services</td>
-                        <td>Active</td>
-                        <td>
-                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditService"></button>
-                    </tr>
-                    <tr>
-                        <td>Mental Health</td>
                         <td>Active</td>
                         <td>
                             <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditService"></button>
@@ -128,6 +121,13 @@
                         <td>Active</td>
                         <td>
                             <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditService"></button>
+                    </tr>
+                                        <tr>
+                        <td>Youth</td>
+                        <td>Active</td>
+                        <td>
+                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditService"></button>
+                        </td>
                     </tr>
                     <tr>
                         <td>Other</td>

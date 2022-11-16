@@ -105,6 +105,18 @@
                 </thead>
                 <tbody>
                     <tr>
+                        <td>City/government office</td>
+                        <td>Active</td>
+                        <td>
+                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditSetting"></button>
+                    </tr>
+                     <tr>
+                        <td>Community based advocacy/engagement</td>
+                        <td>Active</td>
+                        <td>
+                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditSetting"></button>
+                    </tr>
+                    <tr>
                         <td>Community based services</td>
                         <td>Active</td>
                         <td>
@@ -112,7 +124,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Social service</td>
+                        <td>Recreational center</td>
                         <td>Active</td>
                         <td>
                             <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditSetting"></button>
@@ -130,25 +142,13 @@
                             <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditSetting"></button>
                     </tr>
                     <tr>
+                        <td>Social service</td>
+                        <td>Active</td>
+                        <td>
+                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditSetting"></button>
+                    </tr>
+                    <tr>
                         <td>University</td>
-                        <td>Active</td>
-                        <td>
-                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditSetting"></button>
-                    </tr>
-                    <tr>
-                        <td>City/government office</td>
-                        <td>Active</td>
-                        <td>
-                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditSetting"></button>
-                    </tr>
-                    <tr>
-                        <td>Recreational center</td>
-                        <td>Active</td>
-                        <td>
-                            <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditSetting"></button>
-                    </tr>
-                    <tr>
-                        <td>Community based advocacy/engagement</td>
                         <td>Active</td>
                         <td>
                             <button type="button" class="btn btn-link imgbutton" data-bs-toggle="modal" data-bs-target="#EditSetting"></button>
