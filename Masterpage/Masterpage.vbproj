@@ -103,6 +103,7 @@
     <Content Include="CategoryTypeValidation.aspx" />
     <Content Include="NeighborhoodValidation.aspx" />
     <Content Include="Search.aspx" />
+    <Content Include="SearchUnaffiliatedContacts.aspx" />
     <Content Include="ServiceValidation.aspx" />
     <Content Include="Users.aspx" />
     <Content Include="UserTypeValidation.aspx" />
@@ -218,6 +219,13 @@
     </Compile>
     <Compile Include="Search.aspx.vb">
       <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SearchUnaffiliatedContacts.aspx.designer.vb">
+      <DependentUpon>SearchUnaffiliatedContacts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchUnaffiliatedContacts.aspx.vb">
+      <DependentUpon>SearchUnaffiliatedContacts.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="ServiceValidation.aspx.designer.vb">

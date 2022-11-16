@@ -3,7 +3,7 @@
     
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    
+    <h1 style="text-align: center;">Search Partner/Organizations</h1>
     <div class="container text-center p-4">
       <div class="row">
         <div class="col-6">
