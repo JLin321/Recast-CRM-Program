@@ -215,6 +215,10 @@
         <div class="form-check form-check-inline">
             <label class="form-check-label"><input class="form-check-input" type="radio" name="radioPartnerOrgProvideViolencePrevention" id="radioNoPartnerOrgDealProvideViolencePrevention" value="option2">No</label>
         </div>
+        <div class="text-center">
+            <button style="width:100px" type="submit" id="savePartnerBtn" class="btn btn-primary text-white btn-rounded">Submit</button>
+        </div>
+        <div id="addContactPersonDiv">
             <h2 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">Partner/Organization Contact Person Information</h2>
             <div class="col-sm-12">
                     <button type="button" class="btn btn-primary text-white col-6" style="padding-bottom:10px;" data-bs-toggle="modal" data-bs-target="#addContactPerson">Add Contact Person +</button>
@@ -266,11 +270,13 @@
         <div id="newContact"></div>
         <br>
         <div class="text-center">
-            <button style="width:100px" type="submit" id="saveBtn" class="btn btn-primary text-white btn-rounded">Submit</button>
+            <button style="width:100px" type="submit" id="saveContactPersonBtn" class="btn btn-primary text-white btn-rounded">Submit</button>
+        </div>
         </div>
     </div>
     <script>
-        var linebreak;;
+        var linebreak;
+        document.getElementById('addContactPersonDiv').style.display = 'none';
         let contactFirstNameLabel = document.createElement('label');
         contactFirstNameLabel = "Contact First Name: \n";
         let contactFirstNameBox = document.createElement('input');
@@ -301,7 +307,10 @@
         let contactRoleBox = document.createElement('input');
         contactRoleBox.readOnly = true;
         //
-        document.getElementById('submitBtn').onclick = function () {
+        document.getElementById('savePartnerBtn').onclick = function () {
+            document.getElementById('addContactPersonDiv').style.display = 'block';
+        }
+        document.getElementById('saveContactPersonBtn').onclick = function () {
             let contactFirstName = document.getElementById("contactFName").value;
             contactFirstNameBox.value = contactFirstName;
             document.getElementById('newContact').append(contactFirstNameLabel);
