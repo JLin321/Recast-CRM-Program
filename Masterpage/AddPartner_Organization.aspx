@@ -118,6 +118,7 @@
         </div>
         <div class="row form-group required">
             <label for="inputPartnerOrgSetting" class="col control-label">Partner/Organization Setting</label>
+            <label for="inputPartnerOrgFirstContactDate" class="col form-label">Date of First Contact</label>
         </div>
         <div class="row">
             <select class="custom-select col form-control" id="inputPartnerOrgSetting" required>
@@ -132,23 +133,13 @@
                 <option value="8">Community Based Advocacy/Engagement</option>
                 <option value="9">Other</option>
             </select>
-            <div class="row form-group required">
-                <label for="inputPartnerOrgSpecial" class="col control-label">Partner/Organization Special</label>
-            </div>
-            <div>
-                <div class="form-check form-check-inline">
-                    <label class="form-check-label"><input class="form-check-input" type="radio" name="radioPartnerOrgSpecial" id="radioYesPartnerOrgSpecial" value="option1">Yes</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <label class="form-check-label"><input class="form-check-input" type="radio" name="radioPartnerOrgSpecial" id="radioNoPartnerOrgSpecial" value="option2">No</label>
-                </div>
-            </div>
+            <input type="date" style="margin-right: 10px" value="2022-11-09" class="col form-control" id="inputPartnerOrgFirstContactDate" placeholder="">
         </div>
         <div class="row form-group required">
-            <label for="inputPartnerOrgSpecialComment" class="col form-label">Partner/Organization Special Comment</label>
+            <label for="inputPartnerOrgSpecialComment" class="col form-label">Partner/Organization Comment</label>
         </div>
         <div class="row">
-            <textarea type="text" class="col form-control" id="inputPartnerOrgSpecialComment" rows="3" placeholder="Special Comment Here"></textarea>
+            <textarea type="text" class="col form-control" id="inputPartnerOrgSpecialComment" rows="3" placeholder="Comment Here"></textarea>
         </div>
         <div class="row form-group required">
             <h2 style="text-align: center; margin-top: 10px; margin-bottom: 5px;">Partner/Organization Focus</h2>
@@ -237,7 +228,7 @@
                                             <input type="text" class="form-control" id="contactFName" required>
                                         </div>
                                         <div class="mb-3 form-group required">
-                                            <label class="control-label">Contact First Name</label>
+                                            <label class="control-label">Contact Last Name</label>
                                             <input type="text" class="form-control" id="contactLName"required>
                                         </div>
                                         <div class="mb-3">

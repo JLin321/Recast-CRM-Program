@@ -21,10 +21,12 @@
         <div class="row">
             <label for="inputUnaffiliatedEmail" class="col form-label">Email</label>
             <label for="inputUnaffiliatedPhoneNumer" class="col form-label">Phone Number</label>
+            <label for="inputUnaffilatedContactFirstContactDate" class="col form-label">Date of First Contact</label>
         </div>
         <div class="row">
           <input type="email" class="col form-control" id="inputUnaffiliatedEmail" placeholder="name@example.com">
           <input type="tel" class="col form-control" id="inputUnaffiliatedPhoneNumber" placeholder="Phone Number">
+            <input type="date" style="margin-right: 10px" value="2022-11-09" class="col form-control" id="inputUnaffilatedContactFirstContactDate" placeholder="">
         </div>
          <div class="row form-group required">
             <label for="inputUnaffiliatedNeighborhood" class="col form-label">Neighborhood</label>
